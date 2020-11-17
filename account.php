@@ -16,7 +16,7 @@ include("mysqlconnection.php");
     $statement->bind_result($id);
     if($statement->fetch()){
       $_SESSION['id']=$id;  
-      echo "<script>alert('Admin Login Successful');location.assign('adminindex.php');</script>" ;
+      echo "<script>alert('Login Successful');location.assign('adminindex.php');</script>" ;
     }
   }
 
