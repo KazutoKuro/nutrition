@@ -2,7 +2,7 @@
 <?php require("nav.php");?>
 
 
-<!-- backend code Sign in for Admin-->
+<!-- backend code Sign in for Admin and User -->
 <?php
 include("mysqlconnection.php");
   if(isset($_POST["signin"])){
@@ -16,7 +16,7 @@ include("mysqlconnection.php");
     $statement->bind_result($id);
     if($statement->fetch()){
       $_SESSION['id']=$id;  
-      echo "<script>alert('Admin Login Successful');location.assign('index.php');</script>" ;
+      echo "<script>alert('Admin Login Successful');location.assign('adminindex.php');</script>" ;
     }
   }
 
