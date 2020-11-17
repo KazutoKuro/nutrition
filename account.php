@@ -18,12 +18,9 @@ include("mysqlconnection.php");
       $_SESSION['id']=$id;  
       echo "<script>alert('Admin Login Successful');location.assign('index.php');</script>" ;
     }
-    else{
-      echo "<script>alert('Incorrect Admin User!');</script>" ;
-    }
   }
-  
-  elseif(isset($_POST["signin"])){
+
+  if(isset($_POST["signin"])){
     $email = $_POST["email"];
     $password = $_POST["password"];
 
@@ -34,7 +31,8 @@ include("mysqlconnection.php");
     if($statement->fetch()){
     $_SESSION['id']=$id;  
     echo "<script>alert('Login Successful');location.assign('index.php');</script>" ;
-    }else{
+    }
+    else{
       echo "<script>alert('Incorrect User!');</script>" ;
     }
   }
