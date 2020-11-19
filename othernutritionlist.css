@@ -1,0 +1,15 @@
+.nutrition{
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	background-image: url(bg_img/nutrition1.jpg);
+	background-size: cover;
+	min-height: 100%; 
+	padding-top: 160px;
+	padding-bottom: 160px;
+	box-sizing: border-box;
+}
+
+.nutrition hr{
+    border-bottom: 1px solid #282e34;
+}
