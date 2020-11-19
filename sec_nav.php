@@ -9,14 +9,14 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="adminindex.php">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lists</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="#">Vitamin Sources Lists</a>
-                <a class="dropdown-item" href="#">Mineral Sources Lists</a>
-                <a class="dropdown-item" href="#">Other Nutrition Sources Lists</a>
+                <a class="dropdown-item" href="vitaminlist.php">Vitamin Sources Lists</a>
+                <a class="dropdown-item" href="minerallist.php">Mineral Sources Lists</a>
+                <a class="dropdown-item" href="othernutritionlist.php">Other Nutrition Sources Lists</a>
                 </div>
             </li>
             <li class="nav-item dropdown">

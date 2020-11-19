@@ -19,7 +19,7 @@ include("mysqlconnection.php");
       echo "<script>alert('Login Successful');location.assign('adminindex.php');</script>" ;
     }
   }
-
+   
   if(isset($_POST["signin"])){
     $email = $_POST["email"];
     $password = $_POST["password"];
@@ -61,6 +61,7 @@ include("mysqlconnection.php");
 
 ?>
 
+<!-- Frontend for Account -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,7 +72,6 @@ include("mysqlconnection.php");
     <link rel="stylesheet" href="account.css">    
 </head>
 <body>
-
   <section class="account">
       <div class="container" id="container">
           <div class="form-container sign-up-container">
