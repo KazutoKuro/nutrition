@@ -24,10 +24,10 @@
 <body>
 
 <!-- Vitamin source -->
-<section class="vitamin row">
+<section class="vitamin">
 
   <!-- Vitamin Source list table -->
-  <section class="col-lg-8 mx-auto"  >
+  <section class="col-lg-10 mx-auto"  >
   <h3>Vitamin Sources List</h3>
   <hr>
     <div class="mt-3  overflow-auto" style="height: 25em !important;">

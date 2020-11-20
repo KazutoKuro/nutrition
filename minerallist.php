@@ -23,12 +23,12 @@
 </head>
 <body>
   <!-- Mineral Sources -->
-<section class="mineral row">
+<section class="mineral">
   
   <!-- Mineral list table -->
   <section class="col-lg-10 mx-auto"  >
-  <h3>Mineral Sources List</h3>
-  <hr>
+    <h3>Mineral Sources List</h3>
+    <hr>
     <div class="mt-3  overflow-auto" style="height: 25em !important;">
       <table class="table table-striped table-dark">
           <thead class="text-center">

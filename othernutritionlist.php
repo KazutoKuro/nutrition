@@ -24,12 +24,12 @@
 <body>
 
 <!-- Other Nutiriton source -->
-<section class=nutrition row">
+<section class="nutrition">
   
   <!-- Other Nutrition list table -->
   <section class="col-lg-10 mx-auto"  >
-  <h3>Other Nutrition Sources List</h3>
-  <hr>
+    <h3>Other Nutrition Sources List</h3>
+    <hr>
     <div class="mt-3  overflow-auto" style="height: 25em !important;">
       <table class="table table-striped table-dark">
           <thead class="text-center">
