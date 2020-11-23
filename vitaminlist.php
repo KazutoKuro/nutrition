@@ -28,7 +28,7 @@
 
   <!-- Vitamin Source list table -->
   <section class="col-lg-10 mx-auto"  >
-  <h3>Vitamin Sources List</h3>
+  <h3 class="text-center">Vitamin Sources List</h3>
   <hr>
     <div class="mt-3  overflow-auto" style="height: 25em !important;">
       <table class="table table-striped table-dark">

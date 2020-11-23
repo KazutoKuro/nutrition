@@ -28,7 +28,7 @@
   
   <!-- Other Nutrition list table -->
   <section class="col-lg-10 mx-auto"  >
-    <h3>Other Nutrition Sources List</h3>
+    <h3 class="text-center">Other Nutrition Sources List</h3>
     <hr>
     <div class="mt-3  overflow-auto" style="height: 25em !important;">
       <table class="table table-striped table-dark">
