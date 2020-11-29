@@ -32,53 +32,60 @@
 
 ?>
 
+<!-- Frontend Code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="del_nutrition.css">
+  <title>Document</title>
+</head>
+<body>
 
-  <main role="main" class="container mt-5">
-    
-    <section class="row">
-      <div class="col-lg-8 row">
-        <div class="col-lg-12"> 
-          <img src="bg_img/fruit.jpg" alt="" class="img-fluid shadow-lg" style="height: 52%">
-        </div>
-        <div class="col-lg-12 mt-3">
-          <hr class="bg-dark">
-        </div>
-      
-      </div>
+<!-- Deleting Mineral -->
 
-      <div class="text-center
-       col-lg-4" >
+<section class="del_nutrition">
+  <div class="container">    
+    <div class="bgimg">
+      <img src="bg_img/edit_or_del2.jpg" alt="" class="img-fluid shadow-lg">
+    </div>
 
+    <div class="del_Form">
         <form class="card shadow" method="post">
-            <div class="card-header bg-brand text-white">
-              <h5 >Deleting Mineral Sources</h5>
-            </div>
-            <div class="card-body">
-                  <input type="hidden" name="mid" value="<?php echo $mineral_MID;?>" required>
-                  <input type="text" name="mineralname" value="<?php echo $mineral_MName;?>" id="inputmineralname" class="form-control mb-3" placeholder="Mineral Name" required >
-                  <select name="yid" id="inputyid" class="form-control mb-3" required>
-                    <?php
-                        $ages = $connection->prepare('SELECT `YID`, `YName` FROM `age` ');
-                        $ages->execute();
-                        $ages->bind_result($age_YID,$age_YName);
-                        while($ages->fetch()){
-                    ?>
-                      <option value="<?php echo $age_YID;?>"
-                          <?php echo $age_YID == ($mineral_YID) ? 'selected' : '' ; ?>
-                      ><?php echo $age_YName;?></option>
-                     <?php } $ages->close(); ?>
-                      
-                  </select>
-               
-                  <input type="text" name="amount" value="<?php echo $mineral_AmountPerDay;?>" id="inputamount" class="form-control mb-3" placeholder="Amount Per Day" required>
-                  <hr class="bg-dark">
+          <div class="card-header bg-brand text-white">
+            <h5 >Deleting Mineral Sources</h5>
+          </div>
+          <div class="card-body">
+            <input type="hidden" name="mid" value="<?php echo $mineral_MID;?>" required>
+            <input type="text" name="mineralname" value="<?php echo $mineral_MName;?>" id="inputmineralname" class="form-control mb-3" placeholder="Mineral Name" required >
+            <select name="yid" id="inputyid" class="form-control mb-3" required>
+              <?php
+                  $ages = $connection->prepare('SELECT `YID`, `YName` FROM `age` ');
+                  $ages->execute();
+                  $ages->bind_result($age_YID,$age_YName);
+                  while($ages->fetch()){
+              ?>
+                <option value="<?php echo $age_YID;?>"
+                    <?php echo $age_YID == ($mineral_YID) ? 'selected' : '' ; ?>
+                ><?php echo $age_YName;?></option>
+                <?php } $ages->close(); ?>
                 
-                <button class="btn btn-outline-primary btn-block" type="submit" name="Delete">Delete</button>
-                <a href="minerallist.php" class="btn btn-outline-primary btn-block">Back</a>
-            </div>
+            </select>
+          
+            <input type="text" name="amount" value="<?php echo $mineral_AmountPerDay;?>" id="inputamount" class="form-control mb-3" placeholder="Amount Per Day" required>
+            <hr>
+            
+            <button class="btn btn-block" type="submit" name="Delete">Delete</button>
+            <a href="vitaminlist.php" class="btn btn-block">Back</a>
+          </div>
         </form>
-      </div>
-    </section>
-    
-  </main><!-- /.container -->
-<?php require("footer_fixedbottom.php");?>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
+<?php require("footer_fixedbottom2.php");?>
+
+

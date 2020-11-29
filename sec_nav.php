@@ -22,9 +22,9 @@
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sources</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="#">Vitamin Sources</a>
-                <a class="dropdown-item" href="#">Mineral Sources</a>
-                <a class="dropdown-item" href="#">Other Nutrition Sources</a>
+                <a class="dropdown-item" href="vitaminregister.php">Vitamin Sources</a>
+                <a class="dropdown-item" href="mineralregister.php">Mineral Sources</a>
+                <a class="dropdown-item" href="othernutritionregister.php">Other Nutrition Sources</a>
                 </div>
             </li>
         </ul>
