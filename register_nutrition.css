@@ -10,6 +10,7 @@
 	margin-top: 35px;
 	background: url(bg_img/admin2.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 section .container{
@@ -17,7 +18,7 @@ section .container{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 100px 100px;
+	padding: 60px 70px;
 }
 
 section .container .bgimg{
@@ -27,6 +28,10 @@ section .container .bgimg{
 	height: 365px;
 	box-shadow: 0 5px 5px rgba(93, 245, 161, 0.637);
 	border-radius: 0.5%;
+}
+
+.custom-shadow {
+	box-shadow: 0 5px 5px rgba(93, 245, 161, 0.637);
 }
 
 section .container .bgimg img{

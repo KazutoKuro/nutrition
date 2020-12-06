@@ -20,8 +20,6 @@
     <meta name="generator" content="Jekyll v3.8.6">
     <title>Precious Nutrition</title>
 
-    
-
     <!-- Bootstrap core CSS -->
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -29,7 +27,6 @@
     <!-- Custom styles for this template -->
     <link href="phpstyle.css" rel="stylesheet">
 
-    
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -39,6 +36,8 @@
     <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
     <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#563d7c">
-
 </head>
 <body>
+
+</body>
+</html>

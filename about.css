@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppings:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+
+.img1{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: normal;
+    margin-top: 3em;
+    background-image: url(bg_img/bgimg1.jpg);
+    min-height: 300px;
+}
+
+.ptext{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center; 
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Nutrition Therapy */
+section .container h1{
+    color: #248570;
+    font-family: 'Teko', cursive;
+    font-weight: 300;
+    font-size: 4em;
+}
+
+section .container p{
+    font-weight: 400;
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+}
+
+section .container p a{
+    color: #8DA658;
+}
+
+/* Contact */
+.contact{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(bg_img/bgimg5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.contact h4{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.inputBox a[type = "submit"]{
+    width: 100px;
+    border: none;
+    background: none;
+    display: block; 
+    margin: 20px auto;  
+    text-align: center;
+    border: 2px solid #248570;
+    padding: 10px 10px; 
+    outline: none; 
+    color: white; 
+    border-radius: 8px;
+    transition:0.25s; 
+    cursor: pointer;
+}
+
+.inputBox a[type = "submit"]:hover{ /*when cursor the pointer the color will appear*/
+    background:#248570;
+    color: white;   
+    text-decoration: none;
+}

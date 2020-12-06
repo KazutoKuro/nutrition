@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppings:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+
+.img1{
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: normal;
+  margin-top: 3em;
+  background-image: url(bg_img/bgimg1.jpg);
+  min-height: 300px;
+}
+
+.ptext{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center; 
+  font-size: 40px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+/* Contact */
+.contact{
+  position: relative;
+  min-height: 50vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  font-family: 'Poppings', sans-serif;
+  background: #ffffff;;
+}
+
+.contact .content{
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .content h2{
+  font-size: 60px;
+  font-weight: 400;
+  color: #248570;
+  margin-bottom: 20px;
+  font-family: 'Niconne', sans-serif;
+}
+
+.contact .content p{
+  font-size: 30px;
+  font-weight: 300;
+  border-bottom: 1px solid #248570;
+  line-height: 0.1em;
+  color: #248570;
+  font-family: 'Niconne', cursive;
+}
+
+.contact .content p span{
+  background: #fff;
+  padding: 0 10px;
+}
+
+section .container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+	box-shadow: 0 5px 10px rgb(43, 83, 76);
+  border-radius: 0.5%;
+}
+
+section .container .image{
+  margin-right: 50px;
+  background-image: url(bg_img/bgimg2.jpg);
+  background-size: cover;
+  width: 450px;
+  height: 450px;
+  border-radius: 0.5%;
+}
+
+
+.contactForm{
+  margin-left: 10px;
+  width: 60%;
+  padding: 10px;
+  background: #fff;
+}
+
+.contactForm h2{
+  font-size: 30px;
+  color: #333333;
+  font-weight: 300;
+}
+
+.contactForm .inputBox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border:none;
+  border-bottom: 2px solid  #333333;
+  outline: none;
+  resize: none;
+}
+
+.contactForm .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666666;
+}
+
+.contactForm .inputBox input:focus ~ span, 
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span, 
+.contactForm .inputBox textarea:valid ~ span{
+  color: #2ecc71;
+  font-size: 12px;
+  transform: translateY(-20px);
+
+}
+
+.contactForm .inputBox input[type = "submit"]{
+  width: 100px;
+  border: none;
+  background: none;
+  display: block; 
+  margin: 20px auto;  
+  text-align: center;
+  border: 2px solid #248570;
+  padding: 10px 10px; 
+  outline: none; 
+  color: black; 
+  border-radius: 8px;
+  transition:0.25s; 
+  cursor: pointer;
+}
+
+.inputBox input[type = "submit"]:hover{ /*when cursor the pointer the color will appear*/
+  background:#248570;
+  color: white;
+}
+
+
+@media (max-width: 991px){
+  .contact{
+      padding: 50px;
+  }
+  section .container{
+      flex-direction: column;
+  }
+  .container .image{
+      margin-bottom: 40px;
+      margin-right: 0px !important;
+  }
+  .container .contactForm{
+      width: 100% !important;
+      margin-left: 0 !important;
+  }
+}
+
+
+/* Hover button */
+.box input[type = "submit"]{
+  width: 100%;
+  border: 0;
+  background: none;
+  display: block; 
+  margin: 20px auto;  
+  text-align: center;
+  border: 2px solid #248570;
+  padding: 14px 40px; 
+  outline: none; 
+  color: black; 
+  border-radius: 8px;
+  transition:0.25s; 
+  cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{ /*when cursor the pointer the color will appear*/
+  background:#248570;
+  color: white;
+}
+
+/* Contact Info */
+.info{
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(bg_img/bgimg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.info .contact-info{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  background-color: rgba(201, 252, 237, 0.8);
+
+}
+   
+.card{
+  background: none;
+  border: none;
+  padding: 0 20px;
+  margin: 15px 15px;
+  width: calc(33% - 20px);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-icon{
+  font-size: 28px;
+  background: #46a893;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+  background: none;
+  color: #248570;
+  transform: scale(1.6);
+}
+
+.card p{
+  margin-top: 20px;
+  font-weight: 400px;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 0;
+  transition: 0.3s linear;
+  color: #248570;
+}
+
+.card:hover p{
+  max-height: 40px;
+  opacity: 1;
+}
+  
+
+@media screen and (max-width:991px) {
+  .contact-info{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+    max-width: 460px;
+    margin: 10px 0;
+  }
+  .img1{
+      min-height: 200px;
+  }
+  .ptext{
+      font-size: 30px;
+  }
+}
+
+/* location */
+.location{
+  position: relative;
+  min-height: 50vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 30px; */
+  font-family: 'Poppings', sans-serif;
+  background: #ffffff;;
+}
+
+.location .content{
+  max-width: 800px;
+  text-align: center;
+}
+
+.location .content h2{
+  font-size: 60px;
+  font-weight: 400;
+  color: #248570;
+  margin-bottom: 20px;
+  font-family: 'Niconne', sans-serif;
+}
+
+.location .container-fluid{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px;
+	box-shadow: 0 5px 10px rgb(43, 83, 76);
+  border-radius: 0.5%;
+}

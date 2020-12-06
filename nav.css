@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+
+.bg-brand {
+    background-color: #248570;
+}
+
+.bg-brand-secondary {
+    background-color: #248570;
+}
+
+.bg-brand .logo{
+    font-family: 'Niconne', cursive;
+    font-size: 24px;
+    padding-top: 0em;
+}

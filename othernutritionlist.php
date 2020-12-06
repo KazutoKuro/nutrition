@@ -18,13 +18,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="othernutritionlist.css">
+  <link rel="stylesheet" href="admin_sources_list.css">
   <title>Document</title>
 </head>
 <body>
 
 <!-- Other Nutiriton source -->
-<section class="nutrition">
+<section class="list">
   
   <!-- Other Nutrition list table -->
   <section class="col-lg-10 mx-auto"  >
