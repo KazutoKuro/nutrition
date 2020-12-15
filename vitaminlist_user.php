@@ -1,6 +1,6 @@
 <?php require("header.php");?>
 <?php require("nav.php");?>
- 
+
 <!-- backend code  -->
 <?php
   $statement = $connection->prepare('SELECT `VID`, `VName`, age.YName, `AmountPerDay` 
@@ -34,7 +34,7 @@
         <table class="table table-striped table-dark">
             <thead class="text-center">
                 <tr>
-                  <th>No ID</th>
+                  <th>No.</th>
                   <th>Vitamin Name</th>
                   <th>Year</th>
                   <th>Amount Per Day</th>

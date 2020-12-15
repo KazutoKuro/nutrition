@@ -91,7 +91,7 @@ include("mysqlconnection.php");
           </div>
 
           <button class="accountbtn btn-block" type="submit" name="signin">Login</button>
-          <a href="index.php" class="backbtn btn-block">Back</a>
+          <a href="home.php" class="backbtn btn-block">Back</a>
 
           <p class="social-text">Or Sign in with social platforms</p>
           <div class="social-media">

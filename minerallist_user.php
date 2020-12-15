@@ -32,7 +32,7 @@
                 <table class="table table-striped table-dark">
                     <thead class="text-center">
                         <tr>
-                        <th>No ID</th>
+                        <th>No.</th>
                         <th>Mineral Name</th>
                         <th>Year</th>
                         <th>Amount Per Day</th>
