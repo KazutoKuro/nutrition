@@ -6,12 +6,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vegetarian.css">
+    <link rel="stylesheet" href="css_vegetarian/vegetarian.css">
     <title>Document</title>
 </head>
 <body>
 
-    <div class="img1">
+    <div class="img1" style="background-image: url(bg_img/bgimg8.jpg);"> 
         <div class="ptext">
             <span class="cont trans">
                 Nutrition
@@ -27,8 +27,8 @@
     <div class="xop-section">
         <ul class="xop-grid">
             <li>
-                <div class="xop-box xop-img-1">
-                    <a href="#">
+                <div class="xop-box xop-img" style="background-image: url(vegetarianbgimg/vegetables.jpg);">
+                    <a href="vegetarian_vegetables.php">
                         <div class="xop-info">
                             <h3>Vegetables</h3>
                         </div>
@@ -36,7 +36,7 @@
                 </div>
             </li>
             <li>
-                <div class="xop-box xop-img-2">
+                <div class="xop-box xop-img" style="background-image: url(vegetarianbgimg/fruits.jpg);">
                     <a href="#">
                         <div class="xop-info">
                             <h3>Fruits</h3>
@@ -45,7 +45,7 @@
                 </div>
             </li>
             <li>
-                <div class="xop-box xop-img-3">
+                <div class="xop-box xop-img" style="background-image: url(vegetarianbgimg/nuts.jpg);">
                     <a href="#">
                         <div class="xop-info">
                             <h3>Nuts and Seeds</h3>
@@ -54,7 +54,7 @@
                 </div>
             </li>
             <li>
-                <div class="xop-box xop-img-4">
+                <div class="xop-box xop-img" style="background-image: url(vegetarianbgimg/spices.jpg);">
                     <a href="#">
                         <div class="xop-info">
                             <h3>Spices</h3>
@@ -63,7 +63,7 @@
                 </div>
             </li>
             <li>
-                <div class="xop-box xop-img-5">
+                <div class="xop-box xop-img" style="background-image: url(vegetarianbgimg/herbs.jpg);">
                     <a href="#">
                         <div class="xop-info">
                             <h3>Herbs</h3>
@@ -72,7 +72,7 @@
                 </div>
             </li>
             <li>
-                <div class="xop-box xop-img-6">
+                <div class="xop-box xop-img" style="background-image: url(vegetarianbgimg/herbaltea.jpg);">
                     <a href="#">
                         <div class="xop-info">
                             <h3>Herbal Tea</h3>
@@ -81,7 +81,7 @@
                 </div>
             </li>
             <li>
-                <div class="xop-box xop-img-7">
+                <div class="xop-box xop-img" style="background-image: url(vegetarianbgimg/mushrooms.jpg);">
                     <a href="#">
                         <div class="xop-info">
                             <h3>Mushrooms</h3>
@@ -90,8 +90,8 @@
                 </div>
             </li>
             <li>
-                <div class="xop-box xop-img-8">
-                    <a href="#">
+                <div class="xop-box xop-img" style="background-image: url(vegetarianbgimg/coconutwater.jpg);">
+                    <a href="vegetarian_coconut.php">
                         <div class="xop-info">
                             <h3>Coconut Water</h3>
                         </div>

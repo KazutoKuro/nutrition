@@ -67,7 +67,7 @@ include("mysqlconnection.php");
     src="https://kit.fontawesome.com/64d58efce2.js"
     crossorigin="anonymous"
   ></script>
-  <link rel="stylesheet" href="account.css" />
+  <link rel="stylesheet" href="css_user/account.css" />
   <title>Precious Nutrition</title>
 </head>
 <body>
@@ -178,6 +178,6 @@ include("mysqlconnection.php");
   </div>
 </div>
 
-    <script src="account.js"></script>
+    <script src="js/account.js"></script>
   </body>
 </html>

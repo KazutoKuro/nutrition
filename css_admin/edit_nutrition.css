@@ -8,7 +8,7 @@
 	align-items: center;
 	flex-direction: column;
 	margin-top: 35px;
-	background: url(bg_img/admin.jpg);
+	background: url(../bg_img/admin.jpg);
 	background-size: cover;
 }
 

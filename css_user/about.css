@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-attachment: normal;
     margin-top: 3em;
-    background-image: url(bg_img/bgimg6.jpg);
+    background-image: url(../bg_img/bgimg6.jpg);
     min-height: 300px;
 }
 
@@ -51,7 +51,7 @@ section .container p a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(bg_img/bgimg5.jpg);
+    background-image: url(../bg_img/bgimg5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

@@ -1,5 +1,5 @@
-/* Register */
-.register_nutrition{
+/* Deleting */
+.del_nutrition{
 	position: relative;
 	min-height: 50vh;
 	padding: 100px 100px;
@@ -8,9 +8,8 @@
 	align-items: center;
 	flex-direction: column;
 	margin-top: 35px;
-	background: url(bg_img/admin2.jpg);
+	background: url(../bg_img/admin.jpg);
 	background-size: cover;
-	background-attachment: fixed;
 }
 
 section .container{
@@ -26,12 +25,8 @@ section .container .bgimg{
 	background-color: #fff;
 	width: 460px;
 	height: 365px;
-	box-shadow: 0 5px 5px rgba(93, 245, 161, 0.637);
+	box-shadow: 0 5px 5px rgba(255, 142, 148, 0.808);
 	border-radius: 0.5%;
-}
-
-.custom-shadow {
-	box-shadow: 0 5px 5px rgba(93, 245, 161, 0.637);
 }
 
 section .container .bgimg img{
@@ -39,34 +34,34 @@ section .container .bgimg img{
 	height: 100%;
 }
 
-.register_Form{
+.del_Form{
 	margin-left: 10px;
 	background: #fff;
 	width: 350px;
-	box-shadow: 0 5px 5px rgba(93, 245, 161, 0.637);
+	box-shadow: 0 5px 5px rgba(255, 142, 148, 0.808);
 }
 
-.register_Form .card-body button, .btn{
+.del_Form .card-body button, .btn{
 	background: none;
 	display: block; 
 	text-align: center;
-	border: 2px solid #2ecc71;
+	border: 2px solid #e25656cb;
 	color: #495057; 
 	transition:0.25s; 
 	cursor: pointer;
 
 }
 
-.register_Form .card-body button:hover, .btn:hover{
-	background:#2ecc71;
+.del_Form .card-body button:hover, .btn:hover{
+	background:#e25656cb;
 	color: white;
 }
 
-.register_Form .card-body hr{
+.del_Form .card-body hr{
 	border-top: 1px solid #282e34;
 }
 @media (max-width: 991px){
-	.register_nutrition{
+	.del_nutrition{
 		padding: 50px;
 	}
 	section .container{
@@ -77,7 +72,7 @@ section .container .bgimg img{
 		margin-right: 0px !important;
 	}
 	.container .bgimg, 
-	.register_Form{
+	.del_Form{
 		width: 100% !important;
 		margin-left: 0 !important;
 	}

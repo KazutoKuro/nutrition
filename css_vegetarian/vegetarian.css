@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-attachment: normal;
   margin-top: 3em;
-  background-image: url(bg_img/bgimg8.jpg);
+  /* background-image: url(../bg_img/bgimg8.jpg); */
   min-height: 300px;
 }
 
@@ -89,39 +89,10 @@
   transform: scale(1.05);
 }
 
-.xop-img-1{
-  background: linear-gradient(rgba(192, 158, 158, 0.5), rgba(36, 133, 112, 0.10)),
-  url(vegetarianbgimg/vegetables.jpg);
+.xop-img{
+  background: linear-gradient(rgba(192, 158, 158, 0.5), rgba(36, 133, 112, 0.10));
+  /* url(../vegetarianbgimg/vegetables.jpg); */
 }
-.xop-img-2{
-  background: linear-gradient(rgba(192, 158, 158, 0.5), rgba(36, 133, 112, 0.10)),
-  url(vegetarianbgimg/fruits.jpg);
-}
-.xop-img-3{
-  background: linear-gradient(rgba(192, 158, 158, 0.5), rgba(36, 133, 112, 0.10)),
-  url(vegetarianbgimg/nuts.jpg);
-}
-.xop-img-4{
-  background: linear-gradient(rgba(192, 158, 158, 0.5), rgba(36, 133, 112, 0.10)),
-  url(vegetarianbgimg/spices.jpg);
-}
-.xop-img-5{
-  background: linear-gradient(rgba(192, 158, 158, 0.5), rgba(36, 133, 112, 0.10)),
-  url(vegetarianbgimg/herbs.jpg);
-}
-.xop-img-6{
-  background: linear-gradient(rgba(192, 158, 158, 0.5), rgba(36, 133, 112, 0.10)),
-  url(vegetarianbgimg/herbaltea.jpg);
-}
-.xop-img-7{
-  background: linear-gradient(rgba(192, 158, 158, 0.5), rgba(36, 133, 112, 0.10)),
-  url(vegetarianbgimg/mushrooms.jpg);
-}
-.xop-img-8{
-  background: linear-gradient(rgba(192, 158, 158, 0.5), rgba(36, 133, 112, 0.10)),
-  url(vegetarianbgimg/coconutwater.jpg);
-}
-
 
 .xop-info {
   position: absolute;

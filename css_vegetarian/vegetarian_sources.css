@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppings:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.img1{
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: normal;
+  margin-top: 3em;
+  /* background-image: url(../vegetarianbgimg/coconutwater2.jpg); */
+  min-height: 300px;
+}
+
+.ptext{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center; 
+  font-size: 40px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.pros, .cons, .sources{
+  position: relative;
+  min-height: 50vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.5em;
+  font-family: 'Poppings', sans-serif;
+}
+/* Form */
+
+ .pros .container, .cons .container, .sources .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    box-shadow: 0 5px 10px rgb(43, 83, 76);
+    border-radius: 0.5%;
+  }
+
+.pros .container .textform, .cons .container .textform, .sources .container .textform{
+    width: 100%;
+    padding: 10px !important;
+  }
+  
+.pros .container h2, .cons .container h2, .sources .container h2{
+  font-size: 3em;
+  font-weight: 300;
+  color: #248570;
+  font-family: 'Teko', cursive;
+}
+  
+.pros li, .cons li{
+  font-weight: 400;
+  font-size: 1.1em;
+  font-family: 'Open Sans', sans-serif;
+  color: #444444;
+}
+
+.table-striped th{
+	background-color: #A8D5BAFF;
+	color: #444444;	
+}
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #FCF6F5FF;
+  color: #444444;
+}
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color: #A8D5BAFF;
+  color: #444444;
+}
+
+@media (max-width: 991px){
+    .pros, .cons, .sources{
+        padding: 50px;
+    }
+      .pros .container, .cons .container, .sources .container{
+        flex-direction: column;
+    }
+    .pros .container .textform, .cons .container .textform, .sources .container .textform{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+}

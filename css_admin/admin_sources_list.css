@@ -1,15 +1,15 @@
-.user{
+.list{
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	background-image: url(bg_img/admin.jpg);
+	background-image: url(../bg_img/admin.jpg);
 	background-size: cover;
 	min-height: 100%; 
-	padding-top: 160px;
-	padding-bottom: 160px;
+	padding-top: 140px;
+	padding-bottom: 140px;
 	box-sizing: border-box;
 }
 
-.user hr{
+.list hr{
     border-bottom: 1px solid #282e34;
 }

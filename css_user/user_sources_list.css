@@ -2,7 +2,7 @@
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	background-image: url(bg_img/bgimg7.jpg);
+	background-image: url(../bg_img/bgimg7.jpg);
 	background-size: cover;
 	min-height: 100%; 
 	padding-top: 140px;
