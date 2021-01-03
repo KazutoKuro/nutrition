@@ -1,6 +1,7 @@
 
 <!-- backend code Sign in for Admin and User -->
 <?php
+  session_start();
 include("mysqlconnection.php");
   if(isset($_POST["signin"])){
 
@@ -27,7 +28,7 @@ include("mysqlconnection.php");
     $statement->bind_result($id);
     if($statement->fetch()){
     $_SESSION['id']=$id;  
-    echo "<script>alert('Login Successful');location.assign('index.php');</script>" ;
+    echo "<script>alert('Login Successful');location.assign('home.php');</script>" ;
     }
     else{
       echo "<script>alert('Incorrect User!');</script>" ;

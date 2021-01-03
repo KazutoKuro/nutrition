@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppings:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+
+.img1{
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: normal;
+  margin-top: 3em;
+  background-image: url(../bg_img/bgimg9.jpg);
+  min-height: 300px;
+}
+
+.ptext{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center; 
+  font-size: 40px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Heading */
+.heading{
+    margin-top: 2em;
+   }
+.heading h2{
+    font-size: 60px;
+    font-weight: 400;
+    color: #248570;
+    margin-bottom: 20px;
+    font-family: 'Niconne', sans-serif;
+    text-align: center;
+
+}
+
+/* Blog Information */
+.blogInformation{
+    position: relative;
+    min-height: 50vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.5em;
+    font-family: 'Poppings', sans-serif;
+}
+
+.blogInformation .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    box-shadow: 0 5px 10px rgb(43, 83, 76);
+    border-radius: 0.5%;
+}
+
+.blogInformation .container .textform{
+    width: 100%;
+    padding: 10px !important;
+}
+  
+.blogInformation .container h2{
+  font-size: 3em;
+  font-weight: 300;
+  color: #248570;
+  font-family: 'Teko', cursive;
+}
+
+.blogInformation .container p{
+    font-weight: 400;
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+}
+
+.blogInformation .img-fluid{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 2em;
+  border-radius:  0.5%;
+}
+
+@media (max-width: 991px){
+    .blogInformation{
+        padding: 50px;
+    }
+      .blogInformation .container{
+        flex-direction: column;
+    }
+    .blogInformation .container .textform{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 768px){
+  .blogInformation .container .img-fluid{
+    height: 300px !important;
+  }
+}

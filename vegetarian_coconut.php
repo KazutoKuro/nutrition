@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css_vegetarian/vegetarian_sources.css">
+    <link rel="stylesheet" href="css_nutrition/nutrition_sources.css">
     <title>Document</title>
 </head>
 <body>
@@ -134,7 +134,7 @@
                             <td>2.5%</td>
                         </tr>
                         <tr>
-                            <td>Riboflavin C</td>
+                            <td>Riboflavin - B2</td>
                             <td>0.0057 mg</td>
                             <td>4%</td>
                         </tr>

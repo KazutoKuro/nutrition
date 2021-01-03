@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css_user/contactus.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Contact Us</title>
 </head>
 <body>
@@ -24,10 +25,10 @@
 
     <section class="contact">
         <div class="content">
-            <p><span>Get in Touch</span></p>
-            <h2>Contact Information</h2>
+            <p data-aos="fade-right"><span>Get in Touch</span></p>
+            <h2 data-aos="fade-left">Contact Information</h2>
         </div>
-        <div class="container col-lg-12">  
+        <div class="container col-lg-12" data-aos="fade-up">  
             <div class="box text-center text-white">         
                 <div class="image">
                     <!-- <img src="bg_img/bgimg2.jpg" alt="" class="img-fluid"> -->
@@ -80,19 +81,21 @@
             </div>
         </div>
     </div>
-</body>
-</html>
 
+    
     <!-- Contact Form -->
 
     <section class="location">
-        <div class="content">
+        <div class="content" data-aos="fade-up">
             <h2>This is the place that I work from</h2>
         </div>
-        <div class="container-fluid col-lg-12">  
+        <div class="container-fluid col-lg-12" data-aos="fade-up">  
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1684.9014849519303!2d96.13052163364317!3d16.823101161982745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194c9eca2b75b%3A0xd6abf239773b3969!2sInfo%20Myanmar%20University!5e0!3m2!1sen!2smm!4v1607118674534!5m2!1sen!2smm" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </section>
+</body>
+</html>
+
 
 
 <?php require("footer.php");?>

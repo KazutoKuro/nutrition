@@ -1,5 +1,9 @@
 <?php require("header.php");?>
 <?php require("nav.php");?>
+
+<!-- Part of Guard -->
+<?php checkLogin();?>
+ 
  
 <!-- backend code  -->
 <?php

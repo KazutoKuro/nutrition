@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_user/about.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -32,7 +33,7 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up">
                         <img class="img-fluid" src="bg_img/bgimg4.jpg" alt="">
                     </div>
                 </div>
@@ -53,7 +54,7 @@
 
         <!-- Go to Contact Page -->
         <div class="contact">
-            <div class="col-lg-6 mr-left">
+            <div class="col-lg-6 mr-left" >
                 <h4>
                 Are you ready to reclaim your health?
                 </h4>

@@ -36,12 +36,12 @@
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nutritions</a>
               <div class="dropdown-menu" aria-labelledby="dropdown01">
                 <a class="dropdown-item" href="vegetarian.php">Vegetarian</a>
-                <a class="dropdown-item" href="nonvegetarian.php">Non-Vegetarian</a>
-                <a class="dropdown-item" href="immunityboostingfoods.php">Immunity Boosting Foods</a>
+                <a class="dropdown-item" href="non-vegetarian.php">Non-Vegetarian</a>
+                <a class="dropdown-item" href="immunityboostingfood.php">Immunity Boosting Foods</a>
               </div>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="blogs.php">Blogs<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="blog.php">Blogs<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="contactus.php">Contact Us<span class="sr-only">(current)</span></a>

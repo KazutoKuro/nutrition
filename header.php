@@ -5,7 +5,7 @@
   session_start();
   function checkLogin(){
     if(!isset($_SESSION['id'])){
-      echo "<script>alert('You need to login to access this page');location.assign('index.php');</script>" ;
+      echo "<script>alert('You need to login to access this page');location.assign('account.php');</script>" ;
     }
   }
 ?>
