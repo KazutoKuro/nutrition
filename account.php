@@ -18,17 +18,19 @@ include("mysqlconnection.php");
     }
   }
    
-  if(isset($_POST["signin"])){
+  if(isset($_POST["signin"])){ 
     $email = $_POST["email"];
     $password = $_POST["password"];
 
-    $statement = $connection->prepare('SELECT `uid` FROM `user` WHERE `email`=? AND `password`=?'  );
-    $statement->bind_param('ss',$email,$password);
+    $statement = $connection->prepare('SELECT `uid`, `password` FROM `user` WHERE `email`=?'  );
+    $statement->bind_param('s',$email);
     $statement->execute();
-    $statement->bind_result($id);
+    $statement->bind_result($id, $password);
     if($statement->fetch()){
-    $_SESSION['id']=$id;  
-    echo "<script>alert('Login Successful');location.assign('home.php');</script>" ;
+      if(password_verify($_POST["password"], $password)){
+        $_SESSION['id']=$id;  
+        echo "<script>alert('Login Successful');location.assign('home.php');</script>" ;
+      }  
     }
     else{
       echo "<script>alert('Incorrect User!');</script>" ;
@@ -47,8 +49,9 @@ include("mysqlconnection.php");
     $password = $_POST["password"];
     $phone = $_POST["phone"];
 
+    $passwordhash = password_hash($password, PASSWORD_BCRYPT);
     $statement = $connection->prepare('INSERT INTO `user`(`uid`, `user`, `email`, `password`, `phone`) VALUES (NULL,?,?,?,?)');
-    $statement->bind_param('ssss',$username,$email,$password,$phone);
+    $statement->bind_param('ssss',$username,$email,$passwordhash,$phone);
 
     if($statement->execute()){
       echo "<script>alert('Successful Sign Up'); location.assign('account.php');</script>" ;
